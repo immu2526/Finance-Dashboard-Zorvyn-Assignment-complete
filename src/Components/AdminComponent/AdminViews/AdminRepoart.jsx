@@ -318,7 +318,7 @@ const AdminRepoart = () => {
           {/* Empty State */}
           {filteredList.length === 0 && (
             <div className="text-center py-10 text-gray-400 text-sm">
-              Is month ka koi transaction nahi mila!
+              In this month could not founded any transaction!
             </div>
           )}
         </div>
