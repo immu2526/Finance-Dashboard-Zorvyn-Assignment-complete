@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 const RecentTransactions = () => {
   const [val, setVal] = useState("");
   let navigate = useNavigate();
-  // const [openForm, setOpenForm] = useState(false);
   let { list } = useSelector((state) => state.transactions);
 
   let inputHandler = (e) => {
@@ -125,7 +124,7 @@ const RecentTransactions = () => {
         {/* Empty state */}
         {list.length === 0 && (
           <div className="text-center py-10 text-gray-400 text-sm">
-            Koi transactions nahi hain!
+            Not founded Any Transaction!
           </div>
         )}
       </div>
